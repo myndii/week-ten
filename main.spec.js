@@ -10,8 +10,8 @@ describe("Vue component tests", () => {
     expect(defaultData.title).toBe("Anything I Like");
   });
 
-  it("The component should have an updateCurrentChart function.", () => {
-    expect(typeof App.methods.updateCurrentChart).toBe("function");
+  it("The component should have a something function.", () => {
+    expect(typeof App.methods.something).toBe("function");
   });
   it("has a created hook", () => {
     expect(typeof App).toBe("object");
